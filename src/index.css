@@ -30,6 +30,11 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+.active {
+  background-color: #aaabb7;
+  padding: 8px;
+  border-radius: 8px;
+}
 
 h1 {
   font-size: 3.2em;
