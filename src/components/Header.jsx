@@ -6,10 +6,26 @@ const Header = () => {
     <div>
       <h3 className="text-3xl">This is header</h3>
       <nav className="flex gap-3">
-        <NavLink to={"/"}>Home</NavLink>
-        <NavLink to={"/mobiles"}>Mobiles</NavLink>
-        <NavLink to={"/laptops"}>Laptops</NavLink>
-        <NavLink to={"/users"}>Users</NavLink>
+        <NavLink to={"/"}>
+          <button className="cursor-pointer border border-amber-500 p-2 rounded-xl">
+            Home
+          </button>
+        </NavLink>
+        <NavLink to={"/mobiles"}>
+          <button className="cursor-pointer border border-amber-500 p-2 rounded-xl">
+            Mobiles
+          </button>
+        </NavLink>
+        <NavLink to={"/laptops"}>
+          <button className="cursor-pointer border border-amber-500 p-2 rounded-xl">
+            Laptops
+          </button>
+        </NavLink>
+        <NavLink to={"/users"}>
+          <button className="cursor-pointer border border-amber-500 p-2 rounded-xl">
+            Users
+          </button>
+        </NavLink>
       </nav>
     </div>
   );
